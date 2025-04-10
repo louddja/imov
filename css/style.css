@@ -17,7 +17,14 @@
     bottom: 45px;
     z-index: 99;
 }
-
+.whatsapp-fixed {
+    position: fixed;
+    display: block;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    border-radius: 50%;
+}
 
 /*** Spinner ***/
 #spinner {

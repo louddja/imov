@@ -281,19 +281,23 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Votre nom" style="height: 55px;">
+                                <input type="text" class="form-control border-0" placeholder="Votre nom" style="height: 55px;" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Votre email" style="height: 55px;">
+                                <input type="email" class="form-control border-0" placeholder="Votre email" style="height: 55px;" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Votre Téléphone" style="height: 55px;">
+                                <select class="form-select border-0" style="height: 55px;" required>
+                                    <option selected>Selectionner  le service</option>
+                                    <option value="Immobilier">Immobilier</option>
+                                    <option value="Automobile">Automobile</option>
+                                </select>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Votre Ville" style="height: 55px;">
+                                <input type="tel" class="form-control border-0" placeholder="Votre Téléphone" style="height: 55px;" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0" placeholder="Message"></textarea>
+                                <textarea class="form-control border-0" placeholder="Message" required></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-secondary w-100 py-3" type="submit">Valider</button>
@@ -379,7 +383,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center  mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Fahad Entreprise</a>,
+                    &copy; <a class="border-bottom" href="#">Fahad Automobile</a>,
                     Designed By <a class="border-bottom" href="https://www.facebook.com/share/1A7zy3vMwA/?mibextid=wwXIfr">Djaloud Mohamed</a>
                 </div>
             </div>
@@ -392,7 +396,7 @@
 
 
 <a href="https://wa.me/212691715786?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services"
-   class="btn btn-lg btn-success btn-lg-square back-to-top"
+   class="btn btn-lg btn-success btn-lg-square whatsapp-fixed"
    target="_blank"
    title="Discuter sur WhatsApp">
     <i class="fab fa-whatsapp"></i>
